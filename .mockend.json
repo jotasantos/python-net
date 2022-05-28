@@ -1,10 +1,10 @@
 {
-  "User": {
-    "name": {
-      "string": [
-        "Thor",
-        "Loki"
-      ]
-    }
+  "Address": {
+    "hostname": { "regexp": "my-server[0-9]{2}" }, // my-server02, my-server49, ...
+    "id": { "regexp": "[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}" },
+    "public_ipv4": { "string": [ "1.1.1.1", "2.2.2.2", "3.3.3.3" ] },
+    "tags": [], // arrays aren't supported directly
+    "locked": { "boolean": {} },
+    "state": { "string": [ "provisioning" ] }
   }
 }
