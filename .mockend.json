@@ -1,6 +1,5 @@
 {
   "Post": {
-    "name": {
       "Address": {
         "hostname": { "regexp": "my-server[0-9]{2}" }, 
         "id": { "regexp": "[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}" },
@@ -8,7 +7,6 @@
         "tags": [], 
         "locked": { "boolean": {} },
         "state": { "string": [ "provisioning" ] }
-      }
-    }
-  }
+     }
+   }
 }
