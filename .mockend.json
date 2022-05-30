@@ -1,7 +1,7 @@
 {
   "User": {
         "hostname": { "regexp": "my-server[0-9]{2}" }, 
-        "id": { "string": [ "1", "2", "3" ] },
+        "_id": { "string": [ "A", "B", "C" ] },
         "public_ipv4": { "string": [ "1.1.1.1", "2.2.2.2", "3.3.3.3" ] },
         "locked": { "boolean": {} },
         "state": { "string": [ "provisioning" ] }
